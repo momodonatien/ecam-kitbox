@@ -11,7 +11,7 @@ public class Company
 
 	private ProductManager productManager;
 	private PersonManager personManager;
-	private ProviderManager providerManager;
+	private SupplierManager supplierManager;
 	private InvoiceManager invoiceManager;
 	private NpgsqlConnection connection;
 
@@ -38,7 +38,7 @@ public class Company
 		}
 		this.productManager = new ProductManager(this.connection);
 		this.personManager = new PersonManager(this.connection);
-		this.providerManager = new ProviderManager(this.connection);
+		this.supplierManager = new SupplierManager(this.connection);
 		this.invoiceManager = new InvoiceManager(this.connection);
 	}
 
@@ -57,9 +57,9 @@ public class Company
 		get { return this.invoiceManager; }
 	}
 
-	public ProviderManager ProviderManager
-	{
-		get { return this.providerManager; }
+	public SupplierManager SupplierManager
+    {
+		get { return this.supplierManager; }
 	}
 }
 

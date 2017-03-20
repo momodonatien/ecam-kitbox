@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Provider
+public class Supplier
 {
 	protected int id;
 	private string nameSociety;
@@ -8,7 +8,7 @@ public class Provider
 	private string address;
 	private string city;
 
-	public Provider(string nameSociety, string nameShop, string address, string city)
+	public Supplier(string nameSociety, string nameShop, string address, string city)
 	{
 		this.Society = nameSociety;
 		this.Shop = nameShop;
