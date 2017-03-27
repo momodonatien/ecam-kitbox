@@ -33,7 +33,7 @@ public class SupplierManager
 		return supplier;
 	}
 
-	public supplier InsertSupplier(Supplier supplier)
+	public Supplier InsertSupplier(Supplier supplier)
 	{
 		this.connection.Open();
 		string insert = "INSERT INTO \"supplier\"(name_society, name_shop, address, city) values(:name_society, :name_shop, :address, :city)";
