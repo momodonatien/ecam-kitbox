@@ -3495,10 +3495,33 @@
 							"containerExtending": false,
 							"left": 184,
 							"top": 552,
-							"width": 776,
-							"height": 256,
+							"width": 537,
+							"height": 409,
 							"autoResize": false,
-							"text": "As shown on the above figure, there are two main actors. The customer and the storekeeper, both of whom are commissioners. The difference between them being that the storekeeper has additional power: In addition to be able to place and follow an order he can manage the stock",
+							"text": "As shown on the above figure, there are two main actors. The customer and the storekeeper, both of whom are commissioners. The difference between them being that the storekeeper has additional power: In addition to be able to place and follow an order he can manage the stock.But the client can only place an order.\n\n\nPlace an order: \nWhat this use-case does is; it registers the cupboard's composition\nWhen we place an order, we must necessarily check stock availibility, order the required products (if a product is not available yet, then place the order and come back in a week for recovery)  and print a detailed invoice.\n\n\nFollow an order:\nAs it name says , it follows the registered order placed earlier, and finds if yes or no the command is available for immediate recovery or in the following days.\n \nManages the stock:\nAs said above, only the storekeeper can access the stock. \nWhat this use-case does is; it receives and modifies the list of all saved orders, it makes a detailed list of the necessary parts for a particular order and check the catalogue. It also modifies and receives products brought by the supplier.",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFbDweBasj9ELo=",
+							"_parent": {
+								"$ref": "AAAAAAFaMsDav4oFHZ4="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 168,
+							"top": 8,
+							"width": 552,
+							"height": 51,
+							"autoResize": false,
+							"text": "A use case diagram is a coherent unit representing a functionality visible from the outside. A use case diagram thus models a service rendered by the system, without imposing the mode of realisation of this service.",
 							"wordWrap": true
 						}
 					]
